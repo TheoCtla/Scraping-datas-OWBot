@@ -1,0 +1,33 @@
+{
+	"name": "api_scraping",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tsx watch src/index.ts",
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"better-sqlite3": "^12.6.2",
+		"cheerio": "^1.2.0",
+		"dotenv": "^17.3.1",
+		"express": "^5.2.1",
+		"puppeteer": "^24.37.5",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
+	},
+	"devDependencies": {
+		"@types/better-sqlite3": "^7.6.13",
+		"@types/express": "^5.0.6",
+		"@types/node": "^25.3.0",
+		"@types/puppeteer": "^5.4.7",
+		"@types/sqlite3": "^3.1.11",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
+	}
+}
